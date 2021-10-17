@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap");
+/* Обнуление стилей */
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+html,
+body {
+	height: 100%;
+}
+html {
+	font-size: 16px;
+}
+body {
+	line-height: 1;
+	font-family: "Roboto", sans-serif;
+}
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+}
+
+/*======================== */
+.header {
+	padding: 20px 10px 5px 10px;
+	background-color: #33dae6;
+	color: rgba(255, 255, 255, 0.699);
+}
+.header__wrapper {
+	margin-bottom: 200px;
+}
+.header__title {
+	max-width: 500px;
+	margin: 0 auto;
+	font-size: 36px;
+	font-weight: 900;
+	color: #fff;
+	margin-bottom: 20px;
+}
+.header__text {
+	padding: 10px;
+	font-size: 18px;
+	line-height: 1.3;
+}
+.impact {
+	background: #29c3be url("../img/impact/bg-1.png") 90% 0 no-repeat;
+	padding: 112px 5px;
+}
+.impact_marg-bott {
+	margin-bottom: 100px;
+}
+.impact__container {
+	max-width: 1020px;
+	margin: 0 auto;
+}
+.impact__img {
+	border-radius: 45px;
+	margin-left: 100px;
+	margin-top: -174px;
+}
+.block-1 {
+	color: #fff;
+	font-size: 36px;
+}
+.block-1_inline-block {
+	display: inline-block;
+	margin-bottom: 76px;
+}
+.block-1__suptitle {
+	font-size: 12px;
+	font-weight: 700;
+	line-height: 2;
+	letter-spacing: 2.5px;
+	background: url("../img/impact/icon.svg") left no-repeat;
+	padding-left: 30px;
+	text-transform: uppercase;
+	margin-bottom: 32px;
+}
+.block-1__title {
+	font-weight: 900;
+	line-height: 42px;
+	max-width: 411px;
+}
+.impact-items {
+	color: #fff;
+	font-size: 36px;
+}
+.impact-item {
+	display: inline-block;
+}
+.impact-item__img {
+	display: inline-block;
+	margin-right: 20px;
+}
+.impact-items_marg-right {
+	margin-right: 40px;
+}
+.impact-item__number {
+	display: inline-block;
+	line-height: 24px;
+	font-weight: 900;
+}
+.impact-item__text {
+	display: block;
+	font-size: 16px;
+	font-weight: 700;
+	color: #5d62b5;
+	padding-left: 106px;
+}
+.footer {
+	padding: 20px;
+	text-align: center;
+	font-size: 36px;
+}
